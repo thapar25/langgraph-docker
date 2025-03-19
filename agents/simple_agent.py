@@ -3,11 +3,13 @@ from typing_extensions import TypedDict
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langchain_openai import ChatOpenAI
+# from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model = "gpt-4o")
+# llm = ChatOllama(model = "qwen2.5:14b")
 
 
 class State(TypedDict):

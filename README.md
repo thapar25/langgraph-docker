@@ -5,10 +5,9 @@
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd multi-agents
    ```
 
-2. Ensure you have Python installed (version >= 3.12.4, < 3.14).
+2. Ensure you have Python installed (version >= 3.12.4, < 3.14) and are in the root folder with **pyproject.toml** file.
 
 3. Install Poetry:
    ```bash
@@ -25,10 +24,7 @@
    poetry install
    ```
 
-6. Run the application:
-   ```bash
-   poetry run <your-command>
-   ```
+
 
 ## Code Linting
 
@@ -53,4 +49,14 @@ poetry export --without-hashes --format=requirements.txt > requirements.txt
 
 ```bash
 langgraph dockerfile "Dockerfile"
+```
+
+## Docker
+
+```bash
+docker build --pull --rm -f "Dockerfile" -t "langgraphdocker:latest" "." 
+```
+
+```bash
+docker compose up
 ```
