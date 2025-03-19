@@ -60,3 +60,9 @@ docker build --pull --rm -f "Dockerfile" -t "langgraphdocker:latest" "."
 ```bash
 docker compose up
 ```
+
+## To-DO
+ 
+- pyproject.toml in langgraph.json dependencies
+- streamlit st.write()
+- ollama error
