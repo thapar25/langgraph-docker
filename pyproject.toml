@@ -1,0 +1,36 @@
+[project]
+name = "multi-agents"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pulkit Thapar",email = "pulkitthapar25@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12.4,<3.14"
+dependencies = [
+    "langgraph (>=0.3.16,<0.4.0)",
+    "langchain-ollama (>=0.2.3,<0.3.0)",
+    "langgraph-cli[inmem] (>=0.1.77,<0.2.0)",
+    "langchain (>=0.3.21,<0.4.0)",
+    "langchain-openai (>=0.3.9,<0.4.0)",
+    "langserve (>=0.3.1,<0.4.0)",
+    "fastapi (>=0.115.11,<0.116.0)",
+    "langgraph-sdk (>=0.1.57,<0.2.0)",
+    "streamlit (>=1.43.2,<2.0.0)"
+    ]
+
+[tool.poetry]
+package-mode = false
+
+
+[tool.poetry.group.dev.dependencies]
+arize-phoenix = "^8.14.1"
+langsmith = "^0.3.17"
+flake8 = "^7.1.2"
+black = "^25.1.0"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
