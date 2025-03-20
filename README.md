@@ -61,7 +61,7 @@ docker build --pull --rm -f "Dockerfile" -t "langgraphdocker:latest" "."
 docker compose up
 ```
 
-## To-DO
+## To-Do
  
 - pyproject.toml in langgraph.json dependencies
 - streamlit st.write()
