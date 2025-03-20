@@ -29,6 +29,7 @@ langsmith = "^0.3.17"
 flake8 = "^7.1.2"
 black = "^25.1.0"
 ipykernel = "^6.29.5"
+pylint = "^3.3.5"
 
 
 [build-system]

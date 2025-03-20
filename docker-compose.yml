@@ -25,8 +25,10 @@ services:
             timeout: 1s
             retries: 5
             interval: 5s
+
     langgraph-api:
-        image: langgraphdocker
+        build: .   # 🔹 This will build "langgraphdocker:latest" from your Dockerfile
+        image: langgraphdocker:latest  # Optional but useful
         ports:
             - "8123:8000"
         depends_on:
