@@ -1,4 +1,4 @@
-# Multi-Agents  [![Pylint](https://github.com/thapar25/langgraph-docker/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/thapar25/langgraph-docker/actions/workflows/pylint.yml)
+# LangGraph X Dockerized Backend  [![Pylint](https://github.com/thapar25/langgraph-docker/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/thapar25/langgraph-docker/actions/workflows/pylint.yml)
 ## Setup
 
 1. Clone the repository:
