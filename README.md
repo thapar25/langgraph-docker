@@ -1,5 +1,4 @@
-# Multi-Agents
-
+# Multi-Agents  [![Pylint](https://github.com/thapar25/langgraph-docker/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/thapar25/langgraph-docker/actions/workflows/pylint.yml)
 ## Setup
 
 1. Clone the repository:
@@ -62,7 +61,7 @@ docker build --pull --rm -f "Dockerfile" -t "langgraphdocker:latest" "."
 docker compose up
 ```
 
-## To-DO
+## To-Do
  
 - pyproject.toml in langgraph.json dependencies
 - streamlit st.write()
