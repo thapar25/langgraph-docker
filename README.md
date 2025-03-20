@@ -52,10 +52,11 @@ langgraph dockerfile "Dockerfile"
 ```
 
 ## Docker
-
+<!-- 
 ```bash
 docker build --pull --rm -f "Dockerfile" -t "langgraphdocker:latest" "." 
 ```
+-->
 
 ```bash
 docker compose up
